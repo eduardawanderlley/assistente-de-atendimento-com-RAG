@@ -1,0 +1,26 @@
+[
+  {
+    "pergunta": "Onde fica o balcão de perda de bagagem?",
+    "resposta_ideal": {
+      "resposta": "O balcão de achados e perdidos fica no desembarque do Terminal 2, próximo à esteira 5, e funciona 24 horas. Leve seu comprovante de despacho de bagagem (tag).",
+      "fontes": [
+        {"source": "bagagem.md", "section": "Bagagem extraviada", "score": 0.9}
+      ],
+      "confianca": 0.9,
+      "escalonar": false,
+      "motivo_escalonamento": null
+    }
+  },
+  {
+    "pergunta": "Quanto tempo antes preciso chegar para voo internacional?",
+    "resposta_ideal": {
+      "resposta": "Recomendamos chegar 3 horas antes do embarque em voos internacionais e 2 horas em voos domésticos, considerando filas de check-in e segurança.",
+      "fontes": [
+        {"source": "checkin.md", "section": "Chegada ao aeroporto", "score": 0.87}
+      ],
+      "confianca": 0.87,
+      "escalonar": false,
+      "motivo_escalonamento": null
+    }
+  }
+]

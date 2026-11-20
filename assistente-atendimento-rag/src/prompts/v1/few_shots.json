@@ -1,0 +1,36 @@
+[
+  {
+    "pergunta": "Quanto custa estacionar no P1 por um dia?",
+    "resposta_ideal": {
+      "resposta": "O estacionamento P1 (próximo ao Terminal 1) custa R$ 60 por dia. Para estadias acima de 5 dias, o P4 (economico) sai por R$ 35 por dia.",
+      "fontes": [
+        {"source": "estacionamento.md", "section": "Tabela de preços", "score": 0.88}
+      ],
+      "confianca": 0.88,
+      "escalonar": false,
+      "motivo_escalonamento": null
+    }
+  },
+  {
+    "pergunta": "Meu voo foi cancelado, tenho direito a hotel?",
+    "resposta_ideal": {
+      "resposta": "Em cancelamentos com mais de 4 horas de espera pela reacomodação, a companhia aérea deve fornecer hospedagem e alimentação, conforme a Resolução ANAC nº 400. Guarde seus comprovantes de despesa.",
+      "fontes": [
+        {"source": "atrasos_cancelamentos.md", "section": "Direitos em cancelamentos", "score": 0.91}
+      ],
+      "confianca": 0.91,
+      "escalonar": false,
+      "motivo_escalonamento": null
+    }
+  },
+  {
+    "pergunta": "Posso levar meu furão no avião?",
+    "resposta_ideal": {
+      "resposta": "Não encontrei essa informação na nossa base. Animais de estimação seguem regras específicas por companhia aérea, e recomendo confirmar diretamente com a sua.",
+      "fontes": [],
+      "confianca": 0.1,
+      "escalonar": true,
+      "motivo_escalonamento": "Pergunta fora da base de conhecimento: política de transporte de animais exóticos não está documentada nas fontes recuperadas."
+    }
+  }
+]

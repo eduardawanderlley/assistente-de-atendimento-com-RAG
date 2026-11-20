@@ -1,0 +1,39 @@
+[project]
+name = "assistente-atendimento-rag"
+version = "1.0.0"
+description = "Assistente de atendimento com RAG para aeroportos — API em FastAPI com embeddings, vector DB e prompt engineering versionado."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Seu Nome" }]
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "pydantic>=2.6",
+    "pydantic-settings>=2.2",
+    "chromadb>=0.4.24",
+    "sentence-transformers>=2.6",
+    "pypdf>=4.2",
+    "beautifulsoup4>=4.12",
+    "openai>=1.30",
+    "python-multipart>=0.0.9",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.4",
+    "fpdf2>=2.7",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

@@ -1,0 +1,20 @@
+{
+  "versions": [
+    {
+      "version": "v2",
+      "author": "equipe-genai",
+      "date": "2026-11-15",
+      "status": "beta",
+      "description": "Tom mais caloroso + instrução explícita de resumo em até 3 parágrafos.",
+      "changelog": "Adicionada regra de extensão máxima; reescrita da persona para reduzir respostas robóticas."
+    },
+    {
+      "version": "v1",
+      "author": "equipe-genai",
+      "date": "2026-10-02",
+      "status": "stable",
+      "description": "Versão inicial: persona de assistente de aeroporto, regras de fontes e escalonamento.",
+      "changelog": "Versão inicial do system prompt."
+    }
+  ]
+}
